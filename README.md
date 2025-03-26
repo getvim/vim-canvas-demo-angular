@@ -25,11 +25,8 @@ The applications in different frameworks demonstrates how to use the VimOS.js Ca
 * Viewing EHR entities, including
   * Patients
   * Encounters
-  * Referrals
-  * Orders
 * Updating EHR entities, including
   * Encounters
-  * Referrals
 
 ## Vim Canvas™️ Demo App (Angular)
 
@@ -39,8 +36,8 @@ The app is built with `angular`,`vite` and uses `tailwindcss` for the UI compone
 ### Folder Structure
 
 * `functions` - Contains [cloudflare pages functions](https://developers.cloudflare.com/pages/functions/) for the authentication flow.
-* `src/app/components/ui` - Contains UI components generated with [Shadcn](https://ui.shadcn.com/).
-* `src/services` - Contains as services that wrap the VimOS.js Canvas™️ SDK - [following the docs examples](https://docs.getvim.com/vim-os-js/reactjs.html#react-integration-guide-for-vimos.js).
+* `src/app/components/ui` - Contains UI components
+* `src/services` - Contains as services that wrap the VimOS.js Canvas™️ SDK 
 
 ### Running the example code
 
